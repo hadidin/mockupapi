@@ -1,0 +1,56 @@
+2018-12-05 12:05:52|start to connect local database server:127.0.0.1
+2018-12-05 12:05:52|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 12:05:52|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-05 12:05:52|sync total count:0
+2018-12-05 12:09:54|start to connect local database server:127.0.0.1
+2018-12-05 12:09:54|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 12:09:54|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-05 12:10:23|sync total count:911
+2018-12-05 13:29:47|start to connect local database server:127.0.0.1
+2018-12-05 13:29:47|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 13:29:47|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-05 13:29:47|sync total count:0
+2018-12-05 13:29:49|start to connect local database server:127.0.0.1
+2018-12-05 13:29:50|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 13:29:50|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-05 13:29:50|sync total count:0
+2018-12-05 13:45:19|start to connect local database server:127.0.0.1
+2018-12-05 13:45:19|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 13:45:19|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-05 13:45:19|sync total count:0
+2018-12-05 13:45:49|start to connect local database server:127.0.0.1
+2018-12-05 13:45:49|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-05 13:45:49|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-05 13:45:49|sync total count:0
+2018-12-07 11:11:12|start to connect local database server:127.0.0.1
+2018-12-07 11:11:12|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-07 11:11:12|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-07 11:11:42|sync total count:911
+2018-12-08 09:27:13|start to connect local database server:127.0.0.1
+2018-12-08 09:27:13|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-08 09:27:14|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate @last_sync_time = '2018-11-22 08:29:55'; end
+2018-12-08 09:27:14|sync total count:0
+2018-12-08 09:28:10|start to connect local database server:127.0.0.1
+2018-12-08 09:28:10|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-08 09:28:10|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-08 09:28:39|sync total count:911
+2018-12-08 10:52:36|start to connect local database server:127.0.0.1
+2018-12-08 10:52:36|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-08 10:52:36|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-08 10:53:05|sync total count:911
+2018-12-08 10:54:04|start to connect local database server:127.0.0.1
+2018-12-08 10:54:04|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-08 10:54:04|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-08 10:54:37|sync total count:911
+2018-12-12 11:05:17|start to connect local database server:127.0.0.1
+2018-12-12 11:05:17|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-12 11:05:18|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-12 11:05:50|sync total count:911
+2018-12-17 17:45:27|start to connect local database server:127.0.0.1
+2018-12-17 17:45:27|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-17 17:45:28|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-17 17:45:56|sync total count:911
+2018-12-18 18:04:14|start to connect local database server:127.0.0.1
+2018-12-18 18:04:14|start to sync with remote server:edisijutaparking.database.windows.net
+2018-12-18 18:04:14|stored procedure is :begin declare @return_value int; exec @return_value = dbo.spKiple_GetSeasonParkerListByLatestDate; end
+2018-12-18 18:04:45|sync total count:911

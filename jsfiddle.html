@@ -1,0 +1,24 @@
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+
+<form action="">
+    <div id="opwp_woo_tickets">
+        One: <input type="checkbox" class="maxtickets_enable_cb" name="opwp_wootickets[tickets][0][enable]">
+        <div class="max_tickets">
+            <input type="text" name="opwp_wootickets[tickets][0][maxtickets]" value="One">
+        </div>
+
+    </div>
+</form>
+
+
+
+
+<script type="text/javascript">
+    $('input.maxtickets_enable_cb').change(function() {
+        if ($(this).is(':checked')) $(this).next('div.max_tickets').show();
+        else $('div.max_tickets').hide();
+    }).change();
+</script>

@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'cfg_maxpark_tcp_servers' => array (
+        'barcode' => array (
+            'ip' => '127.0.0.1',
+            'port' => 4566,
+            'recv_timeout' => 10,
+            'send_timeout' =>10,
+        ),
+        'lpr' => array (
+            'ip' => '127.0.0.1',
+            'port' => 4710,
+            'recv_timeout' => 10,
+            'send_timeout' =>10,
+        ),
+        'lpr_manual_leave' => array (
+            'ip' => '127.0.0.1',
+            'port' => 5005,
+            'recv_timeout' => 10,
+            'send_timeout' =>10,
+        )
+    ),
+    'cfg_maxpark_ftp_servers' => array (
+        'lpr' => array(
+            'host' => '127.0.0.1',
+            'port' => 21,
+            'timeout' => 3,
+            'username' => 'hadi',
+            'password' => 'hadi123',
+            'remote_path' => '',
+            'upload_ftp_flag' => 0,
+            'mode' => 'passive'#either passive or active
+        )
+    )
+
+];

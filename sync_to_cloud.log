@@ -1,0 +1,368 @@
+2018-12-28 16:10:45|database connect to:127.0.0.1
+2018-12-28 16:10:45|_sync_records_looper,count=3
+2018-12-28 16:12:55|database connect to:127.0.0.1
+2018-12-28 16:12:55|_sync_records_looper,count=3
+2018-12-28 17:12:51|_send_to_cloud get error:Operation timed out after 1691844 milliseconds with 62916 bytes received
+2018-12-28 17:12:53|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:15:20|database connect to:127.0.0.1
+2018-12-28 17:15:20|_sync_records_looper,count=3
+2018-12-28 17:17:01|database connect to:127.0.0.1
+2018-12-28 17:17:01|_sync_records_looper,count=3
+2018-12-28 17:17:51|database connect to:127.0.0.1
+2018-12-28 17:17:51|_sync_records_looper,count=3
+2018-12-28 17:18:33|database connect to:127.0.0.1
+2018-12-28 17:18:33|_sync_records_looper,count=3
+2018-12-28 17:18:53|database connect to:127.0.0.1
+2018-12-28 17:18:53|_sync_records_looper,count=3
+2018-12-28 17:20:07|database connect to:127.0.0.1
+2018-12-28 17:21:44|database connect to:127.0.0.1
+2018-12-28 17:21:44|_sync_records_looper,count=3
+2018-12-28 17:22:06|database connect to:127.0.0.1
+2018-12-28 17:22:06|_sync_records_looper,count=3
+2018-12-28 17:22:21|database connect to:127.0.0.1
+2018-12-28 17:22:21|_sync_records_looper,count=3
+2018-12-28 17:22:45|database connect to:127.0.0.1
+2018-12-28 17:22:45|_sync_records_looper,count=3
+2018-12-28 17:23:06|database connect to:127.0.0.1
+2018-12-28 17:23:17|_sync_records_looper,count=1
+2018-12-28 17:24:12|database connect to:127.0.0.1
+2018-12-28 17:30:09|database connect to:127.0.0.1
+2018-12-28 17:30:09|_sync_records_looper,count=3
+2018-12-28 17:30:10|{"status":"success"}
+2018-12-28 17:30:29|database connect to:127.0.0.1
+2018-12-28 17:30:29|_sync_records_looper,count=3
+2018-12-28 17:30:30|{"status":"success"}
+2018-12-28 17:30:40|database connect to:127.0.0.1
+2018-12-28 17:30:40|_sync_records_looper,count=3
+2018-12-28 17:30:41|{"status":"success"}
+2018-12-28 17:30:41|_sync_records_looper,count=3
+2018-12-28 17:30:41|{"status":"success"}
+2018-12-28 17:30:41|_sync_records_looper,count=3
+2018-12-28 17:30:41|{"status":"success"}
+2018-12-28 17:30:41|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:42|{"status":"success"}
+2018-12-28 17:30:42|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:43|{"status":"success"}
+2018-12-28 17:30:43|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:44|{"status":"success"}
+2018-12-28 17:30:44|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:45|{"status":"success"}
+2018-12-28 17:30:45|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:46|{"status":"success"}
+2018-12-28 17:30:46|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:47|{"status":"success"}
+2018-12-28 17:30:47|_sync_records_looper,count=3
+2018-12-28 17:30:48|{"status":"success"}
+2018-12-28 17:30:48|_sync_records_looper,count=3
+2018-12-28 17:30:48|{"status":"success"}
+2018-12-28 17:30:48|_sync_records_looper,count=3
+2018-12-28 17:30:48|{"status":"success"}
+2018-12-28 17:30:48|_sync_records_looper,count=3
+2018-12-28 17:30:48|{"status":"success"}
+2018-12-28 17:30:48|_sync_records_looper,count=3
+2018-12-28 17:30:48|{"status":"success"}
+2018-12-28 17:30:48|_sync_records_looper,count=3
+2018-12-28 17:31:08|database connect to:127.0.0.1
+2018-12-28 17:31:08|_sync_records_looper,count=3
+2018-12-28 17:31:09|<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Error</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 36px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title">
+                    Too many requests.                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+2018-12-28 17:31:10|{"status":"success"}
+2018-12-28 17:31:54|database connect to:127.0.0.1
+2018-12-28 17:31:54|_sync_records_looper,count=3
+2018-12-28 17:31:54|{"status":"success"}
+2018-12-28 17:31:54|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:55|{"status":"success"}
+2018-12-28 17:31:55|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:56|{"status":"success"}
+2018-12-28 17:31:56|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:57|{"status":"success"}
+2018-12-28 17:31:57|_sync_records_looper,count=3
+2018-12-28 17:31:58|{"status":"success"}
+2018-12-28 17:31:58|_sync_records_looper,count=3
+2018-12-28 17:31:58|{"status":"success"}
+2018-12-28 17:31:58|_sync_records_looper,count=3
+2018-12-28 17:32:29|database connect to:127.0.0.1
+2018-12-28 17:32:29|_sync_records_looper,count=3
+2018-12-28 17:32:29|{"status":"success"}
+2018-12-28 17:32:29|false
+2018-12-28 17:32:29|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:32:30|{"status":"success"}
+2018-12-28 17:32:30|false
+2018-12-28 17:32:30|_sync_records_looper,count=3
+2018-12-28 17:33:01|database connect to:127.0.0.1
+2018-12-28 17:33:01|_sync_records_looper,count=3
+2018-12-28 17:33:02|{"status":"success"}
+2018-12-28 17:33:56|database connect to:127.0.0.1
+2018-12-28 17:33:56|_sync_records_looper,count=3
+2018-12-28 17:33:57|{"status":"success"}
+2018-12-28 17:33:57|true
+2018-12-28 17:34:25|_sync_records_looper,count=1
+2018-12-28 17:34:25|{"status":"success"}
+2018-12-28 17:34:25|true
+2018-12-28 17:35:04|_sync_records_looper,count=1
+2018-12-28 17:35:04|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:05|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:06|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:07|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:08|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:09|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:10|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:11|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:12|_send_to_cloud get error:Could not resolve host: sandbox.kiplepark.com
+2018-12-28 17:35:13|{"status":"success"}
+2018-12-28 17:35:13|true
+2018-12-28 17:36:02|[] sql error: Server shutdown in progress,Server shutdown in progress
+2018-12-28 17:36:02|[] local database ping failed
+2018-12-28 17:36:02|database connect to:127.0.0.1
+2018-12-28 17:36:03|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:04|database connect to:127.0.0.1
+2018-12-28 17:36:05|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:06|database connect to:127.0.0.1
+2018-12-28 17:36:07|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:08|database connect to:127.0.0.1
+2018-12-28 17:36:09|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:10|database connect to:127.0.0.1
+2018-12-28 17:36:11|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:12|database connect to:127.0.0.1
+2018-12-28 17:36:13|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:14|database connect to:127.0.0.1
+2018-12-28 17:36:15|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:16|database connect to:127.0.0.1
+2018-12-28 17:36:17|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:18|database connect to:127.0.0.1
+2018-12-28 17:36:19|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:20|database connect to:127.0.0.1
+2018-12-28 17:36:21|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:22|database connect to:127.0.0.1
+2018-12-28 17:36:23|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:24|database connect to:127.0.0.1
+2018-12-28 17:36:25|database connect failed:No connection could be made because the target machine actively refused it.
+
+2018-12-28 17:36:26|database connect to:127.0.0.1
+2018-12-28 17:40:32|_sync_records_looper,count=1
+2018-12-28 17:40:32|{"status":"success"}
+2018-12-28 17:40:32|true
+2018-12-28 17:40:34|_sync_records_looper,count=1
+2018-12-28 17:40:34|{"status":"success"}
+2018-12-28 17:40:34|true
+2018-12-28 17:40:36|_sync_records_looper,count=1
+2018-12-28 17:40:37|{"status":"success"}
+2018-12-28 17:40:37|true
+2018-12-28 17:40:57|database connect to:127.0.0.1
+2018-12-28 17:40:57|_sync_records_looper,count=2
+2018-12-28 17:40:58|{"status":"success"}
+2018-12-28 17:40:58|true

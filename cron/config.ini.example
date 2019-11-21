@@ -1,0 +1,51 @@
+[common]
+SITE_ID = SIG0025
+DB_NAME = kiplepark-localpsm
+DB_HOST = 127.0.0.1
+DB_USER = root
+DB_PSWD =
+KP_CLOUD = https://sandbox.kiplepark.com
+LPRLA_URL = http://localhost/kiplepark-localpsm/public
+VENDOR_ID = V0001
+VZCENTER_PATH = /home/kipleadmin/vzcenter_release/ubuntu64
+#autopay info
+AUTOPAY_URL=https://sandbox-paymentt.kiplepark.com
+AUTOPAY_SECRET='Mc3oWpuZTv3oYJrpax7xaMvbinEbTern'
+LOG_DEBUG_MODE=0
+#camera wait time in SECOND
+CAM_WAIT_TIME=1
+#interval to check pre-entry-log dualcam from db in MILISECONDS
+DATABASE_CHECK_NEXT_WAIT=200
+#allow kiplepark binded user only to enter as lpr visitor. 1 true, 0 flase
+VISITOR_CONTROL_ALLOW_KIPLE_USER_ONLY = 1
+
+[sync_db]
+SYNC_STATUS_NORMAL = 0
+SYNC_STATUS_DONE = 1
+SYNC_STATUS_FAILED = -1
+DB_TABLE = psm_smc_holder_info
+
+MSDB_HOST = edisijutaparking.database.windows.netalter
+MSDB_USER = kipleuserF88
+MSDB_PSWD = 'A12345678$'
+MSDB_NAME = seasonDBF88
+
+
+
+
+[sync_to_cloud]
+SYNC_STATUS_NORMAL = 0
+SYNC_STATUS_DONE = 1
+SYNC_STATUS_FAILED = -1
+#sandbox
+KP_TOKEN = 'U0lHMDAyNTpZMElDMjBwWGkhSlV1eks3MyFAYkFVJlBMME1MKSh0Yw'
+
+#staging
+#KP_TOKEN = 'U0lHMDAzODppUWx5OGUzaHV2OGM5aUhIZ3pEdHBBaVFOamh1b240NA=='
+
+
+[kpbox]
+#this entry gp need to be same as in configuration of parkingrate table.field name = rate_per_hour
+ENTRY_GRACE_PERIOD = 10
+#this exit gp is use after ticket pay
+EXIT_GRACE_PERIOD = 20

@@ -1,0 +1,34 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.idea
+
+cron/sync_db.log
+cron/sync_to_cloud.log
+cron/config.ini
+
+app/Externallib/maxpark/local_agent_maxpark.log
+app/Externallib/maxpark/config.ini
+
+swole_bc/kiplepark_terminal.log
+
+
+config/maxpark.php
+public/img/result
+tests/Feature/ParkingFeeTest.json
+.htaccess
+cron/last_sync_cloud_id.txt

@@ -1,0 +1,844 @@
+2019-04-09 14:02:15.917308|server listen on 0.0.0.0:2605.
+2019-04-09 14:02:22.034655|client 1 connected.
+2019-04-09 14:02:22.036178|client 1 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2837</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>103</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>103</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140243</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:02:22.036407|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2837</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>103</DeviceNumber><DeviceType>1</DeviceType><TerminalID>103</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:02:22.077425|client 1 disconnected.
+2019-04-09 14:02:33.093571|client 2 connected.
+2019-04-09 14:02:33.095227|client 2 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2272</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140254</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:02:33.095433|response to client 2,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2272</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:02:33.133075|client 2 disconnected.
+2019-04-09 14:02:34.003958|client 3 connected.
+2019-04-09 14:02:34.005614|client 3 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2962</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<Date>190409</Date>
+<Time>140255</Time>
+<TimeOffset>UTC+08</TimeOffset>
+<TimeoutResponse>30</TimeoutResponse>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:02:34.005809|response to client 3,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2962</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:02:34.227730|client 4 connected.
+2019-04-09 14:02:34.229094|client 4 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2273</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140255</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:02:34.229682|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:02:34.229995|_process_TransactionEMV, device_type=2
+2019-04-09 14:02:34.232369|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:02:33' and '2019-04-09 14:02:39' and a.vendor_check_result=0 limit 1
+2019-04-09 14:02:34.232837|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:02:34.409823|client 3 disconnected.
+2019-04-09 14:02:35.700217|client 5 connected.
+2019-04-09 14:02:35.702059|client 5 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2077</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>205</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140257</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:02:35.702244|response to client 5,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2077</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>205</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:02:36.037930|client 5 disconnected.
+2019-04-09 14:02:37.253103|client 6 connected.
+2019-04-09 14:02:37.254977|client 6 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2288</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>102</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>102</TerminalID>
+<Date>190409</Date>
+<Time>140259</Time>
+<TimeOffset>UTC+08</TimeOffset>
+<TimeoutResponse>30</TimeoutResponse>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:02:37.255110|response to client 6,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2288</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>102</DeviceNumber><DeviceType>1</DeviceType><TerminalID>102</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:02:37.701335|client 6 disconnected.
+2019-04-09 14:02:41.194457|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:02:41.195843|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:02:58.395087|client 7 connected.
+2019-04-09 14:02:58.397098|client 7 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2963</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140319</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:02:58.397269|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:02:58.397332|_process_TransactionEMV, device_type=1
+2019-04-09 14:02:58.399013|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='8952ec19-5b0be804' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:02:57' and '2019-04-09 14:03:03' and a.vendor_check_result=0 limit 1
+2019-04-09 14:02:58.399131|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:02:59.571721|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:02:59.918648|client 7 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2963</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:02:59.918809|response to client 7,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2963</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:02:59.918917|response to client 7,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2963</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:03:00.129759|client 7 disconnected.
+2019-04-09 14:03:04.726389|client 4 disconnected.
+2019-04-09 14:03:05.188765|client 8 connected.
+2019-04-09 14:03:05.190674|client 8 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2273</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140326</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:03:05.190829|response to client 8,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2273</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:03:05.251070|client 8 disconnected.
+2019-04-09 14:03:06.216857|client 9 connected.
+2019-04-09 14:03:06.218859|client 9 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2274</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140327</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:03:06.218991|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:03:06.219048|_process_TransactionEMV, device_type=2
+2019-04-09 14:03:06.221565|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:03:05' and '2019-04-09 14:03:11' and a.vendor_check_result=0 limit 1
+2019-04-09 14:03:06.221744|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:03:13.217888|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:03:13.219089|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:03:36.732018|client 9 disconnected.
+2019-04-09 14:03:37.199250|client 10 connected.
+2019-04-09 14:03:37.201050|client 10 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2274</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140358</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:03:37.201309|response to client 10,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2274</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:03:37.237201|client 10 disconnected.
+2019-04-09 14:03:38.189637|client 11 connected.
+2019-04-09 14:03:38.191750|client 11 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2275</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140359</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:03:38.191987|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:03:38.192095|_process_TransactionEMV, device_type=2
+2019-04-09 14:03:38.194384|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:03:37' and '2019-04-09 14:03:43' and a.vendor_check_result=0 limit 1
+2019-04-09 14:03:38.194557|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:03:45.165131|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:03:45.167072|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:03:53.637124|client 12 connected.
+2019-04-09 14:03:53.639127|client 12 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2078</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>205</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140415</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:03:53.639331|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:03:53.639436|_process_TransactionEMV, device_type=2
+2019-04-09 14:03:53.641457|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='2c0d8fc5-18ae3a4a' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:03:52' and '2019-04-09 14:03:58' and a.vendor_check_result=0 limit 1
+2019-04-09 14:03:53.641622|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:03:54.295912|kiple_user data ={"valid_kp_user":false,"entry_log_info":{"id":"170645","plate_no":"WTF3311","camera_sn":"2c0d8fc5-18ae3a4a","kp_user_id":"","check_result":"11"},"check_result":"11"}
+2019-04-09 14:03:54.297039|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='WTF3311' and is_left=0 limit 1
+2019-04-09 14:03:57.462312|client 12 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2078</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>205</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:03:57.462552|response to client 12,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2078</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>205</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:03:57.462744|response to client 12,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2078</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>205</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:03:57.659334|client 12 disconnected.
+2019-04-09 14:04:08.747600|client 11 disconnected.
+2019-04-09 14:04:09.200839|client 13 connected.
+2019-04-09 14:04:09.202867|client 13 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2275</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140430</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:04:09.203119|response to client 13,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2275</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:04:09.296323|client 13 disconnected.
+2019-04-09 14:04:10.379209|client 14 connected.
+2019-04-09 14:04:10.381499|client 14 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2276</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140431</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:04:10.381710|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:04:10.381819|_process_TransactionEMV, device_type=2
+2019-04-09 14:04:10.384306|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:04:09' and '2019-04-09 14:04:15' and a.vendor_check_result=0 limit 1
+2019-04-09 14:04:10.384480|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:04:17.319983|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:04:17.321259|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:04:40.316035|client 14 disconnected.
+2019-04-09 14:04:41.297152|client 15 connected.
+2019-04-09 14:04:41.299334|client 15 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2276</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140502</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:04:41.299551|response to client 15,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2276</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:04:41.341953|client 15 disconnected.
+2019-04-09 14:04:42.294595|client 16 connected.
+2019-04-09 14:04:42.296504|client 16 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2277</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140503</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:04:42.296709|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:04:42.296821|_process_TransactionEMV, device_type=2
+2019-04-09 14:04:42.298369|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:04:41' and '2019-04-09 14:04:47' and a.vendor_check_result=0 limit 1
+2019-04-09 14:04:42.298520|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:04:49.247859|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:04:49.249022|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:05:12.809350|client 16 disconnected.
+2019-04-09 14:05:13.302484|client 17 connected.
+2019-04-09 14:05:13.304586|client 17 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2277</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140534</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:05:13.304804|response to client 17,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2277</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:05:13.434515|client 17 disconnected.
+2019-04-09 14:05:14.452311|client 18 connected.
+2019-04-09 14:05:14.454580|client 18 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2278</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140535</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:05:14.454792|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:05:14.454904|_process_TransactionEMV, device_type=2
+2019-04-09 14:05:14.456461|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:05:13' and '2019-04-09 14:05:19' and a.vendor_check_result=0 limit 1
+2019-04-09 14:05:14.456588|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:05:21.437200|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:05:21.438997|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:05:44.387726|client 18 disconnected.
+2019-04-09 14:05:45.399976|client 19 connected.
+2019-04-09 14:05:45.401741|client 19 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2278</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140606</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:05:45.402082|response to client 19,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2278</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:05:45.440284|client 19 disconnected.
+2019-04-09 14:05:46.396182|client 20 connected.
+2019-04-09 14:05:46.398207|client 20 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2279</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140607</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:05:46.398463|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:05:46.398587|_process_TransactionEMV, device_type=2
+2019-04-09 14:05:46.400604|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:05:45' and '2019-04-09 14:05:51' and a.vendor_check_result=0 limit 1
+2019-04-09 14:05:46.400789|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:05:53.328138|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:05:53.329263|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:05:56.995624|client 21 connected.
+2019-04-09 14:05:56.997813|client 21 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2964</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140617</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:05:56.998136|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:05:56.998327|_process_TransactionEMV, device_type=1
+2019-04-09 14:05:57.000399|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='8952ec19-5b0be804' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:05:55' and '2019-04-09 14:06:01' and a.vendor_check_result=0 limit 1
+2019-04-09 14:05:57.000663|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:05:59.528389|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:05:59.529264|client 21 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2964</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:05:59.529889|response to client 21,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2964</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:05:59.530464|response to client 21,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2964</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:05:59.663284|client 21 disconnected.
+2019-04-09 14:06:16.910829|client 20 disconnected.
+2019-04-09 14:06:17.373827|client 22 connected.
+2019-04-09 14:06:17.375834|client 22 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2279</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140638</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:06:17.376095|response to client 22,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2279</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:06:17.436012|client 22 disconnected.
+2019-04-09 14:06:18.398689|client 23 connected.
+2019-04-09 14:06:18.401062|client 23 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2280</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140639</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:06:18.401340|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:06:18.401468|_process_TransactionEMV, device_type=2
+2019-04-09 14:06:18.403513|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:06:17' and '2019-04-09 14:06:23' and a.vendor_check_result=0 limit 1
+2019-04-09 14:06:18.403800|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:06:25.340198|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:06:25.342530|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:06:48.069153|client 23 disconnected.
+2019-04-09 14:06:49.049556|client 24 connected.
+2019-04-09 14:06:49.051713|client 24 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2280</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140710</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:06:49.051947|response to client 24,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2280</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:06:49.092019|client 24 disconnected.
+2019-04-09 14:06:50.075706|client 25 connected.
+2019-04-09 14:06:50.078039|client 25 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2281</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140711</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:06:50.078572|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:06:50.078953|_process_TransactionEMV, device_type=2
+2019-04-09 14:06:50.081381|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:06:49' and '2019-04-09 14:06:55' and a.vendor_check_result=0 limit 1
+2019-04-09 14:06:50.081603|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:06:56.037390|client 26 connected.
+2019-04-09 14:06:56.039541|client 26 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2838</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>103</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>103</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140717</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:06:56.039966|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:06:56.040257|_process_TransactionEMV, device_type=1
+2019-04-09 14:06:56.042642|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='b85f8d97-f4098a01' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:06:55' and '2019-04-09 14:07:01' and a.vendor_check_result=0 limit 1
+2019-04-09 14:06:56.042808|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:06:57.038734|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:06:57.074182|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:06:57.075496|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:07:00.555263|client 26 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2838</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>103</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>103</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:07:00.555850|response to client 26,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2838</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>103</DeviceNumber><DeviceType>1</DeviceType><TerminalID>103</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:07:00.556272|response to client 26,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2838</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>103</DeviceNumber><DeviceType>1</DeviceType><TerminalID>103</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:07:00.736920|client 26 disconnected.
+2019-04-09 14:07:09.491070|client 27 connected.
+2019-04-09 14:07:09.493185|client 27 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2839</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>103</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>103</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140730</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:07:09.493382|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:07:09.493442|_process_TransactionEMV, device_type=1
+2019-04-09 14:07:09.494913|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='b85f8d97-f4098a01' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:07:08' and '2019-04-09 14:07:14' and a.vendor_check_result=0 limit 1
+2019-04-09 14:07:09.495058|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:07:10.177895|client 28 connected.
+2019-04-09 14:07:10.180907|client 28 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2965</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140731</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:07:10.181052|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:07:10.181109|_process_TransactionEMV, device_type=1
+2019-04-09 14:07:10.183590|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='8952ec19-5b0be804' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:07:09' and '2019-04-09 14:07:15' and a.vendor_check_result=0 limit 1
+2019-04-09 14:07:10.183758|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:07:10.617568|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:07:11.097598|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:07:11.721451|client 28 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2965</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:07:11.721676|response to client 28,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2965</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:07:11.721872|response to client 28,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2965</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:07:11.752990|client 28 disconnected.
+2019-04-09 14:07:13.093472|client 27 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2839</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>103</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>103</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:07:13.093632|response to client 27,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2839</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>103</DeviceNumber><DeviceType>1</DeviceType><TerminalID>103</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:07:13.093718|response to client 27,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2839</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>103</DeviceNumber><DeviceType>1</DeviceType><TerminalID>103</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:07:13.285212|client 27 disconnected.
+2019-04-09 14:07:20.592000|client 25 disconnected.
+2019-04-09 14:07:21.054898|client 29 connected.
+2019-04-09 14:07:21.056796|client 29 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2281</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140742</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:07:21.056936|response to client 29,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2281</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:07:21.117290|client 29 disconnected.
+2019-04-09 14:07:22.104367|client 30 connected.
+2019-04-09 14:07:22.106374|client 30 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2282</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140743</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:07:22.106515|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:07:22.106573|_process_TransactionEMV, device_type=2
+2019-04-09 14:07:22.108479|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:07:21' and '2019-04-09 14:07:27' and a.vendor_check_result=0 limit 1
+2019-04-09 14:07:22.108603|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:07:26.892916|client 31 connected.
+2019-04-09 14:07:26.895015|client 31 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2966</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140747</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:07:26.895159|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:07:26.895215|_process_TransactionEMV, device_type=1
+2019-04-09 14:07:26.896678|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='8952ec19-5b0be804' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:07:25' and '2019-04-09 14:07:31' and a.vendor_check_result=0 limit 1
+2019-04-09 14:07:26.896797|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:07:27.844192|_process_TransactionEMV, stop here to snb thread. becasue it not binded kiplepark user
+2019-04-09 14:07:29.126442|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:07:29.128705|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:07:29.438791|client 31 send request: name=TransactionCancelEMV,data:<?xml version="1.0"?>
+<TransactionCancelEMV>
+<MerchantTransactionID>2966</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>105</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>105</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionCancelEMV>
+
+.
+2019-04-09 14:07:29.439049|response to client 31,<?xml version="1.0"?><TransactionCancelEMV><MerchantTransactionID>2966</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>300</ResponseCode><ResponseTextMessage>Canceled accepted</ResponseTextMessage></TransactionCancelEMV>
+2019-04-09 14:07:29.439222|response to client 31,<?xml version="1.0"?><TransactionEMV><MerchantTransactionID>2966</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>105</DeviceNumber><DeviceType>1</DeviceType><TerminalID>105</TerminalID><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>200</ResponseCode><ResponseTextMessage>Canceled by merchant</ResponseTextMessage></TransactionEMV>
+2019-04-09 14:07:29.600459|client 31 disconnected.
+2019-04-09 14:07:32.245655|server listen on 0.0.0.0:2605.
+2019-04-09 14:07:54.813565|client 1 connected.
+2019-04-09 14:07:54.815038|client 1 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2282</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140816</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:07:54.815294|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2282</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:07:54.853331|client 1 disconnected.
+2019-04-09 14:07:55.773085|client 2 connected.
+2019-04-09 14:07:55.775247|client 2 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>2283</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190409</PurchaseDate>
+<PurchaseTime>140817</PurchaseTime>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+<LanguageCode>en</LanguageCode>
+<TimeoutResponse>30</TimeoutResponse>
+</TransactionEMV>
+
+.
+2019-04-09 14:07:55.775454|_process_TransactionEMV, authorization_type=Identification
+2019-04-09 14:07:55.775846|_process_TransactionEMV, device_type=2
+2019-04-09 14:07:55.778796|_get_entry_log, query entry log : SELECT a.id,a.plate_no,a.camera_sn,a.kp_user_id,a.check_result 
+            FROM psm_entry_log a
+            WHERE a.camera_sn='bb3fb8a4-ff933e92' AND a.check_result IN(3,4,5,7,10,11)
+            AND a.create_time between '2019-04-09 14:07:54' and '2019-04-09 14:08:00' and a.vendor_check_result=0 limit 1
+2019-04-09 14:07:55.778994|_db access 127.0.0.1:root:rt123456@gp:kp_local_psm
+2019-04-09 14:08:02.773447|kiple_user data ={"valid_kp_user":false,"entry_log_info":null,"check_result":null}
+2019-04-09 14:08:02.775022|Query to get ticket id = SELECT id from psm_car_in_site where plate_no='' and is_left=0 limit 1
+2019-04-09 14:08:26.293715|client 2 disconnected.
+2019-04-09 14:08:26.748682|client 3 connected.
+2019-04-09 14:08:26.751624|client 3 send request: name=TerminalStatusEMV,data:<?xml version="1.0"?>
+<TerminalStatusEMV>
+<MerchantTransactionID>2283</MerchantTransactionID>
+<ZRNumber>1007</ZRNumber>
+<DeviceNumber>202</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>202</TerminalID>
+<TimeoutResponse>30</TimeoutResponse>
+<Date>190409</Date>
+<Time>140848</Time>
+<TimeOffset>UTC+08</TimeOffset>
+</TerminalStatusEMV>
+
+.
+2019-04-09 14:08:26.751844|response to client 3,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>2283</MerchantTransactionID><ZRNumber>1007</ZRNumber><DeviceNumber>202</DeviceNumber><DeviceType>2</DeviceType><TerminalID>202</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2019-04-09 14:08:26.813658|client 3 disconnected.

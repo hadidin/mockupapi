@@ -1,0 +1,184 @@
+2018-12-23 09:58:55|server listen on 0.0.0.0:2605.
+2018-12-23 09:59:12|client 1 connected.
+2018-12-23 09:59:12|client 1 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>181223</PurchaseDate>
+<PurchaseTime>095912</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2018-12-23 09:59:12|_process_TransactionEMV, authorization_type=Identification
+2018-12-23 09:59:12|_process_TransactionEMV, device_type=2
+2018-12-23 09:59:12|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2018-12-23 09:59:15|response to client 1,<?xml version="1.0"?><><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></>
+2018-12-23 09:59:25|client 1 disconnected.
+2018-12-23 10:04:42|server listen on 0.0.0.0:2605.
+2018-12-23 10:04:47|client 1 connected.
+2018-12-23 10:04:47|client 1 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>181223</PurchaseDate>
+<PurchaseTime>100447</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2018-12-23 10:04:47|_process_TransactionEMV, authorization_type=Identification
+2018-12-23 10:04:47|_process_TransactionEMV, device_type=2
+2018-12-23 10:04:47|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2018-12-23 10:04:50|_response_with_CardDataEMV enter
+2018-12-23 10:04:50|_response_with_CardDataEMV data{"MerchantTransactionID":"16076","ZRNumber":"2055","DeviceNumber":"205","DeviceType":"2","TerminalID":"Term01","HashedEpan":"TICKET20181220111111","ExpirationDate":"1903","CardIssuer":"AX","CardType":"CLESS"}
+2018-12-23 10:04:50|response to client 1,<?xml version="1.0"?><><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></>
+2018-12-23 10:04:59|client 1 disconnected.
+2018-12-23 10:11:35|server listen on 0.0.0.0:2605.
+2018-12-23 10:11:46|client 1 connected.
+2018-12-23 10:11:46|client 1 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>181223</PurchaseDate>
+<PurchaseTime>101146</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2018-12-23 10:11:46|_process_TransactionEMV, authorization_type=Identification
+2018-12-23 10:11:46|_process_TransactionEMV, device_type=2
+2018-12-23 10:11:46|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2018-12-23 10:11:49|_response_with_CardDataEMV enter{"MerchantTransactionID":"16076","ZRNumber":"2055","DeviceNumber":"205","DeviceType":"2","TerminalID":"Term01","AuthorizationType":"Identification","PurchaseDate":"181223","PurchaseTime":"101146","TimeoutResponse":"10","CurrencyCode":"USD","LanguageCode":"en","PurchaseTimeOffset":"UTC+08"}
+2018-12-23 10:11:49|_response_with_CardDataEMV data{"MerchantTransactionID":"16076","ZRNumber":"2055","DeviceNumber":"205","DeviceType":"2","TerminalID":"Term01","HashedEpan":"TICKET20181220111111","ExpirationDate":"1903","CardIssuer":"AX","CardType":"CLESS"}
+2018-12-23 10:11:49|response to client 1,<?xml version="1.0"?><><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></>
+2018-12-23 10:11:58|client 1 disconnected.
+2018-12-24 16:17:38|server listen on 0.0.0.0:2605.
+2018-12-24 16:18:19|client 1 connected.
+2018-12-24 16:18:19|client 1 send request: name=ServerStatusEMV,data:<?xml version="1.0" ?>
+<ServerStatusEMV>
+<TimeoutResponse>10</TimeoutResponse>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+</ServerStatusEMV>.
+2018-12-24 16:18:19|response to client 1,<?xml version="1.0"?><><ResponseStatus>OK</ResponseStatus><ResponseCode>500</ResponseCode><ResponseTextMessage>Server online</ResponseTextMessage></>
+2018-12-24 16:18:28|client 2 connected.
+2018-12-24 16:18:28|client 2 send request: name=TerminalStatusEMV,data:<?xml version="1.0" ?>
+<TerminalStatusEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<TimeoutResponse>10</TimeoutResponse>
+</TerminalStatusEMV>.
+2018-12-24 16:18:28|response to client 2,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>100</ResponseCode><ResponseTextMessage>Idle</ResponseTextMessage></TerminalStatusEMV>
+2018-12-24 16:18:28|client 2 disconnected.
+2018-12-24 16:19:07|client 3 connected.
+2018-12-24 16:19:07|client 3 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>181224</PurchaseDate>
+<PurchaseTime>161907</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2018-12-24 16:19:07|_process_TransactionEMV, authorization_type=Identification
+2018-12-24 16:19:07|_process_TransactionEMV, device_type=2
+2018-12-24 16:19:07|response to client 3,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2018-12-24 16:19:10|response to client 3,<?xml version="1.0"?><CardDataEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></CardDataEMV>
+2018-12-24 16:19:19|client 3 disconnected.
+2018-12-24 16:33:32|client 4 connected.
+2018-12-24 16:33:32|client 4 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>181224</PurchaseDate>
+<PurchaseTime>163332</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2018-12-24 16:33:32|_process_TransactionEMV, authorization_type=Identification
+2018-12-24 16:33:32|_process_TransactionEMV, device_type=2
+2018-12-24 16:33:32|response to client 4,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2018-12-24 16:33:35|response to client 4,<?xml version="1.0"?><CardDataEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></CardDataEMV>
+2018-12-24 16:33:41|client 4 send request: name=RemoveCardEMV,data:<?xml version="1.0" ?>
+<RemoveCardEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>2</DeviceType>
+<TerminalID>Term01</TerminalID>
+<ResponseStatus>REFUSED</ResponseStatus>
+<ResponseCode>701</ResponseCode>
+<TimeoutResponse>10</TimeoutResponse>
+</RemoveCardEMV>.
+2018-12-24 16:33:41|response to client 4,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>102</ResponseCode><ResponseTextMessage>Card removed</ResponseTextMessage></TerminalStatusEMV>
+2018-12-24 16:33:41|response to client 4,<?xml version="1.0"?><RemoveCardEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>2</DeviceType><TerminalID>Term01</TerminalID><AccountNumber>***********2345</AccountNumber><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1903</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType><ResponseStatus>CANCELED</ResponseStatus><ResponseCode>203</ResponseCode><ResponseTextMessage>Canceled after remove card</ResponseTextMessage></RemoveCardEMV>
+2018-12-24 16:33:51|client 4 disconnected.
+2019-01-23 10:54:15|server listen on 0.0.0.0:2605.
+2019-03-05 16:29:04|server listen on 0.0.0.0:2605.
+2019-03-05 16:29:17|client 1 connected.
+2019-03-05 16:29:17|client 1 send request: name=TransactionEMV,data:<?xml version="1.0"?>
+<TransactionEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>Term01</TerminalID>
+<AuthorizationType>Identification</AuthorizationType>
+<PurchaseDate>190305</PurchaseDate>
+<PurchaseTime>162919</PurchaseTime>
+<TimeoutResponse>10</TimeoutResponse>
+<CurrencyCode>USD</CurrencyCode>
+<LanguageCode>en</LanguageCode>
+<PurchaseTimeOffset>UTC+08</PurchaseTimeOffset>
+</TransactionEMV>.
+2019-03-05 16:29:17|_process_TransactionEMV, authorization_type=Identification
+2019-03-05 16:29:17|_process_TransactionEMV, device_type=1
+2019-03-05 16:29:17|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>1</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>101</ResponseCode><ResponseTextMessage>Card inserted</ResponseTextMessage></TerminalStatusEMV>
+2019-03-05 16:29:20|response to client 1,<?xml version="1.0"?><CardDataEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>1</DeviceType><TerminalID>Term01</TerminalID><HashedEpan>TICKET20181220111111</HashedEpan><ExpirationDate>1906</ExpirationDate><CardIssuer>AX</CardIssuer><CardType>CLESS</CardType></CardDataEMV>
+2019-03-05 16:29:21|client 1 send request: name=RemoveCardEMV,data:<?xml version="1.0" ?>
+<RemoveCardEMV>
+<MerchantTransactionID>16076</MerchantTransactionID>
+<ZRNumber>2055</ZRNumber>
+<DeviceNumber>205</DeviceNumber>
+<DeviceType>1</DeviceType>
+<TerminalID>Term01</TerminalID>
+<ResponseStatus>ACCEPTED</ResponseStatus>
+<ResponseCode>700</ResponseCode>
+<TimeoutResponse>10</TimeoutResponse>
+</RemoveCardEMV>.
+2019-03-05 16:29:21|response to client 1,<?xml version="1.0"?><TerminalStatusEMV><MerchantTransactionID>16076</MerchantTransactionID><ZRNumber>2055</ZRNumber><DeviceNumber>205</DeviceNumber><DeviceType>1</DeviceType><TerminalID>Term01</TerminalID><ResponseStatus>STATUS</ResponseStatus><ResponseCode>102</ResponseCode><ResponseTextMessage>Card removed</ResponseTextMessage></TerminalStatusEMV>
+2019-03-05 16:29:21|response to client 1,<?xml version="1.0"?><RemoveCardEMV></RemoveCardEMV>
